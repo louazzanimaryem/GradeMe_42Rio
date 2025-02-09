@@ -1,6 +1,6 @@
 void    print_bits(unsigned char octet);
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int main (int argc, char **argv)
 {

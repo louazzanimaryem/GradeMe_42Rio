@@ -1,7 +1,7 @@
 
 int	ft_atoi(const char *str);
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(int argc, char **argv)
 {

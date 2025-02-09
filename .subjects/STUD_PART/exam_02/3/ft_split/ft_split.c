@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-int	ft_wordlen(char *str)
+int		ft_wordlen(char *str)
 {
 	int i = 0;
 
@@ -24,7 +24,7 @@ char	*word_dupe(char *str)
 	return (word);
 }
 
-void	fill_words(char **array, char *str)
+void fill_words(char **array, char *str)
 {
 	int word_index = 0;
 	
@@ -41,7 +41,7 @@ void	fill_words(char **array, char *str)
 	}
 }
 
-int		count_words(char *str)
+int	 count_words(char *str)
 {
 	int num_words = 0;
 	
@@ -58,7 +58,7 @@ int		count_words(char *str)
 	return (num_words);
 }
 
-char	**ft_split(char *str)
+char **ft_split(char *str)
 {
 	int		num_words;
 	char	**array;

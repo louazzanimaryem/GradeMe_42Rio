@@ -1,5 +1,3 @@
-// Passed Moulinette 2019.09.01
-
 #include <unistd.h>
 
 int		ft_atoi(char *str)
@@ -15,7 +13,7 @@ int		ft_atoi(char *str)
 	return (n);
 }
 
-void	ft_putnbr(int n)
+void ft_putnbr(int n)
 {
 	if (n >= 10)
 		ft_putnbr(n / 10);
@@ -36,7 +34,7 @@ int		is_prime(int n)
 	return (1);
 }
 
-int		add_prime_sum(int n)
+int	add_prime_sum(int n)
 {
 	int sum = 0;
 	int i = 2;
@@ -50,7 +48,7 @@ int		add_prime_sum(int n)
 	return (sum);
 }
 
-int		main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	int n;
 

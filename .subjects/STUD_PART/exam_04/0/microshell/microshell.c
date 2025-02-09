@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-// #include <sys/types.h> //for linux
 #include <sys/wait.h> //for linux
 
 #define STDIN		0
@@ -22,12 +21,6 @@ typedef struct s_base
 	struct s_base *prev;
     struct s_base *next;
 } t_base;
-
-/*
-**====================================
-**============Part utils==============
-**====================================
-*/
 
 int ft_strlen(char *str)
 {

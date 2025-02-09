@@ -18,6 +18,5 @@ int main(int argc, char **argv)
         tab[i - 2] = atoi(argv[i]);
     }
     printf("} , %s) = %d\n", argv[1], max(tab, atoi(argv[1])));
-    // printf("max(\"%s\") = %d\n", argv[1], is_power_of_2(atoi(argv[1])));
     return(0);
 }

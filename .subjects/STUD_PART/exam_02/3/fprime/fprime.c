@@ -1,9 +1,9 @@
 // Passed Moulinette 2019.09.01
 
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
-int		is_prime(int n)
+int	is_prime(int n)
 {
 	int i = 2;
 
@@ -16,7 +16,7 @@ int		is_prime(int n)
 	return (1);
 }
 
-void	fprime(char *str)
+void  fprime(char *str)
 {
 	int n = atoi(str);
 	int factor = 2;
@@ -41,7 +41,7 @@ void	fprime(char *str)
 	}
 }
 
-int		main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	if (argc == 2)
 		fprime(argv[1]);

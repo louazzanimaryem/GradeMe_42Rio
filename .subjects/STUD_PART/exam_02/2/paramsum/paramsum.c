@@ -15,7 +15,7 @@ void	ft_putnbr(int n)
 
 int		main(int argc, char **argv)
 {
-	(void)argv;		// Silence 'unused parameter' error
+	(void)argv;
 
 	ft_putnbr(argc - 1);
 	write(1, "\n", 1);

@@ -1,7 +1,7 @@
 
-int	    is_power_of_2(unsigned int n);
-#include <stdlib.h>
+int	is_power_of_2(unsigned int n);
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(int argc, char **argv)
 {

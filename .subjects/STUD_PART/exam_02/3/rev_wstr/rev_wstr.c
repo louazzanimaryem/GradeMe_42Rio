@@ -1,23 +1,11 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   rev_wstr.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: aarbaoui <aarbaoui@student.1337.ma>        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/18 14:03:03 by aarbaoui          #+#    #+#             */
-/*   Updated: 2023/01/18 14:50:08 by aarbaoui         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <unistd.h>
 
-void ft_putchar(char c)
+void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int i = 0;
 	
@@ -26,7 +14,7 @@ int ft_strlen(char *str)
 	return (i);
 }
 
-int main(int ac, char *av[])
+int 	main(int ac, char *av[])
 {
 	char *tmp;
 	char *rev;

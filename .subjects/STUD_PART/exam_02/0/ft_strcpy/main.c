@@ -1,5 +1,5 @@
 
-char	*ft_strcpy(char *s1, char *s2);
+char *ft_strcpy(char *s1, char *s2);
 #include <stdlib.h>
 #include <stdio.h>
 

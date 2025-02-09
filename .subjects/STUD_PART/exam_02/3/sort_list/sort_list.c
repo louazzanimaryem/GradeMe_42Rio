@@ -2,7 +2,7 @@
 
 #include "list.h"
 
-void	swap_values(t_list *a, t_list *b)
+void  swap_values(t_list *a, t_list *b)
 {
 	int swap = a->data;
 	a->data = b->data;

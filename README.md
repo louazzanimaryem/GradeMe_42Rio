@@ -1,9 +1,7 @@
 # 42_EXAM RIO 🎓
 ## Todos os exames da 42, para praticar.
 ## ExamRank02, 03, 04, 05, 06 & PiscineExam
-#### Disclaimer: Esse projeto é um "fork" do 42_exam do [JCluzet](https://github.com/JCluzet), Todos os créditos desse projeto são deles. Esse fork consiste em proporcionar o conhecimento de forma livre e Open source, trazendo melhorias focadas no campus da 42Rio,
-
-<img width="711" alt="Screenshot 2022-09-06 at 17 00 20" src="https://user-images.githubusercontent.com/55356071/188669215-6681228d-e6b5-4229-b177-45d2699e29ae.png">
+#### Disclaimer: Esse projeto é um "fork" do 42_exam do [JCluzet](https://github.com/JCluzet), Todos os créditos desse projeto são deles. Esse fork consiste em proporcionar o conhecimento de forma livre e Open source, trazendo melhorias focadas no campus da 42Rio.
 
 -----
 
@@ -55,7 +53,7 @@
 # Disclaimer:
 
 Esse projeto é um "fork" do 42_exam do [JCluzet](https://github.com/JCluzet), Todos os créditos desse projeto são deles.
-esse fork consiste em proporcionar o conhecimento de forma livre e Open source, trazendo melhorias focadas no campus da 42Rio,
+Esse fork consiste em proporcionar o conhecimento de forma livre e Open source, trazendo melhorias focadas no campus da 42Rio,
 com o propósito de ajudar os estudantes a entenderem seus erros e melhorar com eles.
 Grademe é e sempre será uma ferramenta sem fins lucrativos e com propósitos apenas educacionais.
 

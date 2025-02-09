@@ -43,7 +43,7 @@ void exam::exam_prompt(void)
     is_linux = 1;
 #endif
 
-    while (1)
+    while (42)
     {
         char *line = readline("\e[93mexamshell\e[0m> ");
         if (line == NULL)
@@ -153,8 +153,6 @@ void exam::exam_prompt(void)
         }
         else if (input == "repo_git")
         {
-            std::string tmp = "bash .system/data_sender.sh \"cheatcode:repo_git\"";
-            system(tmp.c_str());
             std::cout << "Opening git repo..." << std::endl;
             if (is_linux)
                 std::system("xdg-open http://git.grademe.fr");
@@ -163,8 +161,6 @@ void exam::exam_prompt(void)
         }
         else if (input == "remove_grade_time")
         {
-            std::string tmp = "bash .system/data_sender.sh \"cheatcode:remove_grade_time\"";
-            system(tmp.c_str());
             std::cout << "Time between grading is now removed for this exam" << std::endl;
             waiting_time = false;
             using_cheatcode++;

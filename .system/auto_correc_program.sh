@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    auto_correc_program.sh                             :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jcluzet <jcluzet@student.42.fr>            +#+  +:+       +#+         #
+#    By: aldantas <aldantas@student.42.rio>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/20 02:26:11 by jcluzet           #+#    #+#              #
-#    Updated: 2022/12/14 15:24:12 by jcluzet          ###   ########.fr        #
+#    Updated: 2025/02/09 13:36:56 by aldantas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

@@ -170,13 +170,7 @@ void exam::ask_param(void)
     level_per_ex_save = level_per_ex;
 
     // SEND DATA ABOUT CHOOSEN EXAM
-    std::string tmp;
     std::string enter;
-    if (student)
-        tmp = "bash .system/data_sender.sh \"choose_examrank0" + std::to_string(exam_number) + "\"";
-    else
-        tmp = "bash .system/data_sender.sh \"choose_examweek0" + std::to_string(exam_number) + "\"";
-    system(tmp.c_str());
     explanation();
     // =============================
 
@@ -237,18 +231,7 @@ exam::exam(void) : exam_grade(0), level(0), level_max(0), failures(0), student(f
 	vip = 0;
     username = getenv("USER");
     load_settings();
-	system("curl https://user.grademe.fr/vip_list > .system/vip_list 2> /dev/null");
-	std::ifstream vip_list(".system/vip_list");
-	std::string line;
-
-	while (std::getline(vip_list, line))
-	{
-		if (line == username)
-		{
-			vip = 1;
-			break;
-		}
-	}
+    vip = 1; // Bypass vip
     changex = 0;
     if (setting_an == 1)
         setenv("LOGNAMELOG42EXAM", generate_unique_id().c_str(), 1);

@@ -1,8 +1,7 @@
 # 42_EXAM RIO 🎓
 ## Todos os exames da 42, para praticar.
 ## ExamRank02, 03, 04, 05, 06 & PiscineExam
-##  👉 42_Exam agora é parte de **[GRADEME.RIO](https://grademe.rio)** 😎
-#### Disclaimer: Esse projeto não é feito pela Ecole 42, Não é identico ao exames propostos e não reflete seus exames na 42.
+#### Disclaimer: Esse projeto é um "fork" do 42_exam do [JCluzet](https://github.com/JCluzet), Todos os créditos desse projeto são deles. Esse fork consiste em proporcionar o conhecimento de forma livre e Open source, trazendo melhorias focadas no campus da 42Rio,
 
 <img width="711" alt="Screenshot 2022-09-06 at 17 00 20" src="https://user-images.githubusercontent.com/55356071/188669215-6681228d-e6b5-4229-b177-45d2699e29ae.png">
 
@@ -11,6 +10,11 @@
 ### ⚠️ Esse projeto está disponivel em MAC e LINUX (O exame real será em linux)
 
 -----
+
+ # Iniciar
+
+ > git clone https://github.com/AllanDantas21/GR4D3M3_42R1O && cd GR4D3M3_42R1O && make && make
+
 
  ## Pratique para os exames da 42 🏊‍♂️
 
@@ -32,49 +36,29 @@
  # 👓 CHEAT code :
    
   **remove_grade_time** : remove o Tempo de espera entre os "grademe"
-   
-      > The maximum time to complete the exam is only information.
-      Here, the exercise can always be corrected even after the time limit.
-      
+
   **force_success** : força um success no exercicio
    
   **new_ex** : gerar um novo exercicio aleatorio
  
   Você pode contribuir adicionando um novo exercicio ou melhorando o programa
  
-  **gradenow** : Get an instant correction (no grademe cooldown)
+  **gradenow** : Correção sem tempo de espera
   
- # Launch 42_EXAM em um comando: 
-
- ```bash -c "$(curl https://grademe.fr)"```    --> Visite [Grademe.rio](https://grademe.rio)
- 
 # 👮‍♀️ RGPD Information :
- Some data may be collected for the sole purpose of improving the service, for example to check if an error is coming from the student and not from the program. 
-The data that can be collected are : 
-- The host name of your machine.
-- The exam number you choose.
-- Name of exercise, fail or success, current assignement and level.
+  NENHUMA informação sua é coletada durante o Exame
 
 # Contribua adicionando um novo exercicio :
 
 📄 Leia a documentação: [Contribution DOC](CONTRIBUTING.md)
 
-🥳 If your contribution is accepted, your name will be listed in the ReadMe as a contributor, thanks!
+# Disclaimer:
 
-Contribuidores : - UserUnknown
+Esse projeto é um "fork" do 42_exam do [JCluzet](https://github.com/JCluzet), Todos os créditos desse projeto são deles.
+esse fork consiste em proporcionar o conhecimento de forma livre e Open source, trazendo melhorias focadas no campus da 42Rio,
+com o propósito de ajudar os estudantes a entenderem seus erros e melhorar com eles.
+Grademe é e sempre será uma ferramenta sem fins lucrativos e com propósitos apenas educacionais.
 
-# Disclaimer for 42 staff :
+# Sua ajuda é muito bem vinda
 
-This project is not identical to the proposed exams and does not reflect 42 official exam. 
-It is only meant to help 42 students to train on some exercises found on Github. 
-It works simply by doing a DIFF on both versions. 
-All the subjects have been found on Github. During my schooling at 42, this project helped me to understand a lot of notions like how to host a website, working with javascript, php and others.
-This project has been created with the sole purpose of helping students to understand their mistakes and improve themselves. 
-If It’s not the case, I am ready to make changes and corrections on it, 42_EXAM/GradeMe has only a non-lucrative and educational purpose. It is completely free and open-source. 
-
-
-# Your help is welcome
-
-👋 If you have any problem with any test, please create an "Issue" here on Github, it will only take 3 minutes of your time and it will help me to make the test more accurate.
-
-📌 Remember that if you encounter an error, you're probably not the only one and your "Issue" will surely help other people.
+👋 Se você tiver problema com algum teste, crie uma "Issue" aqui no Github, levará apenas 3 minutos do seu tempo e será de grande ajuda para a comunidade.

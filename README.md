@@ -43,7 +43,7 @@
  
   **gradenow** : Correção sem tempo de espera
   
-# 👮‍♀️ RGPD Information :
+# 👮‍♀️ RGPD:
   NENHUMA informação sua é coletada durante o Exame
 
 # Contribua adicionando um novo exercicio :

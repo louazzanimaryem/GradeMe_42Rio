@@ -7,9 +7,9 @@ By typing "agree" and using Grademe, you accept these terms.
 
 ---
 
-Utilisez GrademeEXAM de manière responsable à des fins d'entraînement.
-L'apprentisage vient de la compréhension du code, il n'y a pas de raccourcis.
-Cet outil a été créé pour vous aider à revoir vos erreurs et mieux comprendre votre code.
-Sachez que le contenu de GrademeEXAM peut ne pas correspondre à l'ExamShell de 42, les corrections de la Moulinette peuvent différer considérablement, et les sujets d'examen peuvent changer à tout moment.
-Vous êtes responsable de votre préparation et de vos résultats d'examen.
-En tapant "agree" et en utilisant Grademe, vous acceptez ces termes.
+Use GrademeExam com propósito de praticar.
+Passar no Exam vem de entender o codigo, não há atalhos.
+Essa ferramenta foi criada para ajudar você a revisar seus erros e entender melhor os exercicios.
+Entenda que o conteudo do GrademeExam pode não ser exatamente como o ExamShell da 42, as correções 
+da Moulinette podem ser diferentes, e os topicos do exame podem mudar com o tempo.
+Digitando "agree" e usando Grademe, você aceita esse termos.

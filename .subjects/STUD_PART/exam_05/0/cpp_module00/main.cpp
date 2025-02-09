@@ -1,6 +1,6 @@
 #include "Warlock.hpp"
 
-int main()
+int   main()
 {
   std::string lol;
   Warlock const richard("Richard", "Mistress of Magma");

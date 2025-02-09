@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 typedef struct s_list
 {
@@ -9,7 +9,6 @@ typedef struct s_list
 
 
 int	ft_list_size(t_list *begin_list);
-
 
 int	main(void)
 {

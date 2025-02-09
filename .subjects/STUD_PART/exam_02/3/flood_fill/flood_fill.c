@@ -1,6 +1,5 @@
 // Passed Moulinette 2019.09.01
 
-// This code is heavily influenced by @jochang's solution: github.com/MagicHatJo
 
 typedef struct 	s_point {
 	int			x;				// x : Width  | x-axis

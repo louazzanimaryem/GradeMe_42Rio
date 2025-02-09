@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void	pgcd(int a, int b)
+void pgcd(int a, int b)
 {
 	int n = a;
 
@@ -18,7 +18,7 @@ void	pgcd(int a, int b)
 	}
 }
 
-int		main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	if (argc == 3)
 		pgcd(atoi(argv[1]), atoi(argv[2]));

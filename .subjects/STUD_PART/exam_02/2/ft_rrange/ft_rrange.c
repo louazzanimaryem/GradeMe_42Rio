@@ -1,14 +1,12 @@
-// Passed Moulinette 2019.09.01
-
 #include <stdlib.h>
 
-int		absolute_value(int n);
+int	absolute_value(int n);
 
 int		*ft_rrange(int start, int end)
 {
+	int step;
 	int number_of_ints;
 	int *array;
-	int step;
 	int i;
 
 	number_of_ints = 1 + absolute_value(end - start);

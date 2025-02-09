@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-unsigned char	swap_bits(unsigned char octet);
+unsigned char swap_bits(unsigned char octet);
 
 int	main(int argc, char **argv)
 {

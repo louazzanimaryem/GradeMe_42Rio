@@ -18,11 +18,3 @@ unsigned int	lcm(unsigned int a, unsigned int b)
 		++n;
 	}
 }
-
-//--------------------------------------------------------------
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("%u\n", lcm(0, 5));
-// }

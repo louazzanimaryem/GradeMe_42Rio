@@ -1,6 +1,6 @@
 #include "list.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 void	swap_values(t_list *a, t_list *b);
 t_list	*sort_list(t_list *lst, int (*cmp)(int, int));

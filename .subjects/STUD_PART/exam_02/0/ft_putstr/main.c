@@ -1,5 +1,5 @@
 
-void    ft_putstr(char *str);
+void ft_putstr(char *str);
 #include <stdlib.h>
 #include <stdio.h>
 

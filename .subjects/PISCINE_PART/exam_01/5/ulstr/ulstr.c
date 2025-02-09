@@ -1,23 +1,11 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ulstr.c                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: jcluzet <jo@cluzet.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/12/03 15:11:26 by angavrel          #+#    #+#             */
-/*   Updated: 2021/07/02 22:47:29 by jcluzet          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-int		main(int ac, char **av)
+int	main(int ac, char **av)
 {
 	int		index;
 

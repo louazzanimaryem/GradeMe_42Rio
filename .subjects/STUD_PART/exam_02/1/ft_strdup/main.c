@@ -1,7 +1,7 @@
 
 char    *ft_strdup(char *src);
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(int argc, char **argv)
 {

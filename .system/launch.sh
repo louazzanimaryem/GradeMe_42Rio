@@ -137,7 +137,12 @@ if [ ! -f .system/readline_ok ]; then
         sudo yum install readline
         clear
 
+
         g++ .system/checkreadline.cpp -o .system/readline_ok 2>.system/.devmake.err
+
+
+
+
 
         if [ ! -f .system/readline_ok ]; then
             echo -ne "Can't install readline library... $WHITE$BOLD"

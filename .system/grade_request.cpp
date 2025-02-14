@@ -2,6 +2,8 @@
 
 void exam::fail_ex()
 {
+    std::string tmp = "bash .system/data_sender.sh \"fail_ex:" + current_ex->get_name() + " level:" + std::to_string(level) + " assignement:" + std::to_string(current_ex->get_assignement()) + "\"";
+    system(tmp.c_str());
     current_ex->up_assignement();
     current_ex->set_time_bef_grade(time(NULL) + current_ex->grade_time() * 60);
     store_data();
@@ -22,6 +24,11 @@ void exam::success_ex(bool force)
               << LIME << ">>>>>>>>>> SUCCESS <<<<<<<<<<" << RESET << std::endl
               << std::endl;
     std::string tmp;
+    if (force)
+        tmp = "bash .system/data_sender.sh \"cheat_success_ex: " + current_ex->get_name() + " level:" + std::to_string(level) + " assignment:" + std::to_string(current_ex->get_assignement()) + "\"";
+    else
+        tmp = "bash .system/data_sender.sh \"success_ex: " + current_ex->get_name() + " level:" + std::to_string(level) + " assignment:" + std::to_string(current_ex->get_assignement()) + "\"";
+    system(tmp.c_str());
     up_lvl();
     std::cout << "(Press enter to continue...)" << std::endl;
     std::string input;
@@ -46,19 +53,66 @@ void exam::success_ex(bool force)
 
 void exam::end_exam()
 {
+    std::string tmp;
     remove(".system/exam_token/actuel_token.txt");
     if (using_cheatcode == 0)
+    {
+        if (student)
+            tmp = "bash .system/data_sender.sh \"exam_success_end: examrank0" + std::to_string(exam_number) + "\"";
+        else
+            tmp = "bash .system/data_sender.sh \"exam_success_end: examweek0" + std::to_string(exam_number) + "\"";
+        system(tmp.c_str());
         std::cout << WHITE << BOLD << "🥳 Congratulation! You have finished the Exam Rank 0" << exam_number << " !" << std::endl;
+    }
     else
+    {
         std::cout << WHITE << BOLD << "🙁 You have finished the Exam Rank 0" << exam_number << ", " << RED << BOLD << "after using " << using_cheatcode << " cheat command..." << WHITE << BOLD << std::endl;
-    
+        if (student)
+            tmp = "bash .system/data_sender.sh \"exam_success_cheat" + std::to_string(using_cheatcode) + ": examrank0" + std::to_string(exam_number) + "\"";
+        else
+            tmp = "bash .system/data_sender.sh \"exam_success_cheat" + std::to_string(using_cheatcode) + ": examweek0" + std::to_string(exam_number) + "\"";
+        system(tmp.c_str());
+    }
     std::cout << "\n\e[1m\e[96mA word from the creator:\e[0m\n"
               << std::endl;
     std::cout << "This program has been created entirely \e[92mfor free\e[0m and \e[92mopen-source\e[0m.\n";
+    std::cout << "The VIP option exists not to create a business, but simply to help\n"
+              << "those who enjoy using the program and have a little extra to give.\n"
+              << std::endl;
+    std::cout << "If you're a student who loves this tool and wants to support my journey,\n"
+              << "consider becoming a VIP by making a small donation.\n";
+    std::cout << "However, if you prefer to contribute without spending money, \e[95myou can\n"
+              << "always help out by making a Pull Request\e[0m. I would welcome your support\n"
+              << "with open arms.\n"
+              << std::endl;
+    std::cout << "For those who are just starting out, or can't contribute financially,\n"
+              << "you can also \e[95memail me\e[0m explaining why you'd like VIP status, and I'll\n"
+              << "be happy to grant it to you.\n"
+              << std::endl;
+    std::cout << "The VIP status does not limit the program's core features. It simply\n"
+              << "offers two small additional options for those who wish to support the project.\n"
+              << std::endl;
     std::cout << "\e[1mThank you for your support, and happy coding! ♥︎\e[0m\n"
               << std::endl;
+
+    // show file .system/qrcode
+    std::cout << std::endl
+              << "Opening Github Sponsor Page? (y/n)" << std::endl;
     char c;
     std::cin >> c;
+    if (c == 'y' || c == 'Y')
+    {
+        int is_linux = 0;
+#define O 1
+#ifdef __linux__
+        is_linux = 1;
+#endif
+        if (is_linux)
+            system("xdg-open https://github.com/sponsors/JCluzet");
+        else
+            system("open https://github.com/sponsors/JCluzet");
+        system("cat .system/qrcodesponsor");
+    }
     std::cout << WHITE << BOLD << "Thanks for studying with us " << LIME << BOLD << username << WHITE << BOLD << " ❤️" << std::endl;
     exit(0);
 }

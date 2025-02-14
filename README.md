@@ -11,7 +11,7 @@
 
  # Iniciar
 
- ``` git clone https://github.com/AllanDantas21/GradeM3_42Rio && cd GradeM3_42Rio && make```
+ ``` git clone https://github.com/AllanDantas21/GradeM3_42Rio && cd GradeM3_42Rio && make && make```
 
 
  ## Pratique para os exames da 42 🏊‍♂️

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REPO_URL="https://github.com/allandantas21/gradeMe_42rio.git"
-REPO_DIR="gradeMe_42rio"
+REPO_URL="https://github.com/allandantas21/GradeMe_42Rio.git"
+REPO_DIR="GradeMe_42Rio"
 git clone $REPO_URL
 cd $REPO_DIR
-make && make
+make

@@ -1,3 +1,4 @@
+# &lt;clipboard-copy&gt; element
 # 42_EXAM RIO 🎓
 ## Todos os exames da 42, para praticar.
 ## ExamRank02, 03, 04, 05, 06 & PiscineExam
@@ -10,9 +11,9 @@
 -----
 
  # Iniciar
-
- ``` git clone https://github.com/AllanDantas21/GradeMe_42Rio && cd GradeMe_42Rio && make && make```
-
+```
+git clone https://github.com/AllanDantas21/GradeMe_42Rio && cd GradeMe_42Rio && make && make
+```
 
  ## Pratique para os exames da 42 🏊‍♂️
 

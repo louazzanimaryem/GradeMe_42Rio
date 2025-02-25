@@ -11,6 +11,4 @@ if [ ! -d "$REPO_DIR" ]; then
   git clone "$REPO_URL"
 fi
 
-cd "$REPO_DIR"
-
-make
+make -C "$REPO_DIR"

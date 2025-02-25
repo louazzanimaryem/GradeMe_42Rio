@@ -1,18 +1,14 @@
-# &lt;clipboard-copy&gt; element
 # 42_EXAM RIO 🎓
-## Todos os exames da 42, para praticar.
-## ExamRank02, 03, 04, 05, 06 & PiscineExam
+### Todos os exames da 42, para praticar.
 #### Disclaimer: Esse projeto é um "fork" do 42_exam do [JCluzet](https://github.com/JCluzet), Todos os créditos desse projeto são deles. Esse fork consiste em proporcionar o conhecimento de forma livre e Open source, trazendo melhorias focadas no campus da 42Rio.
 
------
-
-### ⚠️ Esse projeto está disponivel em MAC e LINUX (O exame real será em linux)
-
------
-
- # Iniciar
+# Iniciar
 ```
 git clone https://github.com/AllanDantas21/GradeMe_42Rio && cd GradeMe_42Rio && make && make
+```
+Ou
+```
+source <(curl https://raw.githubusercontent.com/allandantas21/GradeMe_42Rio/main/install.sh)
 ```
 
  ## Pratique para os exames da 42 🏊‍♂️

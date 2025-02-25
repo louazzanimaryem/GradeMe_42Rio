@@ -11,4 +11,4 @@ cd "$REPO_DIR"
 
 make
 
-exit 0
+cat .system/launch.sh | bash

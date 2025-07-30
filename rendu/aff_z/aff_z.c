@@ -1,7 +1,7 @@
 #include <unistd.h>
 
-int		main(void)
+int main ()
 {
-		write(1,"z\n",1);
-			return (0);
+		write(1,"z\n",2);
+		return (0);
 }
